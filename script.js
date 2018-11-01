@@ -6,6 +6,8 @@
 // Based on Maptime Boston leaflet tutorial:
 // https://maptimeboston.github.io/leaflet-intro/
 //
+// Author: Jacob Heitzman
+// Date: 10-23-18
 ///////////////////////////////////////////////////////////////////////////////
 
 // initialize the map
