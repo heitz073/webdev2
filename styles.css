@@ -9,7 +9,7 @@ body {
 
 #map {
     position: absolute;
-    top: 60px;
+    top: 50px;
     bottom: 0;
     width: 100%;
 }
@@ -29,11 +29,11 @@ body {
     position: fixed;
     /* note that the map is positioned this far from the top of the
     page*/
-    height: 60px;
+    height: 40px;
     /* white text */
     color: white;
-    /* green background */
-    background-color: green;
+    /* light blue background */
+    background-color: light blue;
     /* some spacing */
     padding-left: 12px;
     /* my attempt at not overlapping the map*/
@@ -53,5 +53,5 @@ body {
 }
 /* link or anchor tag(<a>) styling */
 a {
-    color: aqua;
+    color: sky blue;
 }
