@@ -22,12 +22,15 @@ var map = L.map('map')
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-})
+});
 omnivore.csv('airports.csv').addTo(map);  
 // use the .addTo method to add the tile layer to the map.
-    .addTo(map);
 
 // FIXME: Load CSV data into leaflet markers
-
+var customLayer = L.geoJson(null,  {
+    pointToLayer; function(feature, latlng){
+    return L.marker(latlng,{icon:airportIcon})
+}
+})
 // FIXME: Add styling to markers
 // Use airport.png
